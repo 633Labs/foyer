@@ -1,0 +1,15 @@
+{
+  "name": "tidy-lib",
+  "version": "1.2.0",
+  "description": "Formats ledger ids. Small on purpose.",
+  "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "node src/index.ts",
+    "test": "node --test",
+    "build": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  }
+}
